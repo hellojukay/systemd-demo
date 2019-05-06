@@ -1,3 +1,7 @@
+sudo: required
+env:
+  #matrix:
+  - OS_TYPE=centos OS_VERSION=７
 language: go
 script:
   - bash install.sh
