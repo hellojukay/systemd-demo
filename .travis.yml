@@ -1,5 +1,5 @@
 language: go
 script:
-  - sudo bash install.sh
+  - bash install.sh
   - sudo systemctl start now
   - sudo systemctl enable now
