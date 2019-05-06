@@ -28,6 +28,11 @@ hellojukay@local systemd-demo (master) $ systemctl status now
 
 Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
 ```
+access by curl 
+```shell
+hellojukay@local systemd-demo (master) $ curl http://127.0.0.1:6000/now
+2019-05-06 18:39:25
+```
 ## auto start at boot
 it will auto start whill system started.
 ```shell
