@@ -3,5 +3,5 @@ dist: xenial
 language: go
 script:
   - bash install.sh
-  - systemctl start now
-  - systemctl enable now
+  - sudo systemctl start now
+  - sudo systemctl enable now
