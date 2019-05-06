@@ -1,3 +1,5 @@
 language: go
 script:
   - sudo bash install.sh
+  - sudo system start now
+  - sudo system enable now
