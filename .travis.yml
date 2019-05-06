@@ -5,5 +5,5 @@ env:
 language: go
 script:
   - bash install.sh
-  - sudo systemctl start now
-  - sudo systemctl enable now
+  - systemctl start now
+  - systemctl enable now
