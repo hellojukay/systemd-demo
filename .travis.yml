@@ -1,7 +1,5 @@
 sudo: required
-env:
-  #matrix:
-  - OS_TYPE=centos OS_VERSION=７
+dist: xenial
 language: go
 script:
   - bash install.sh
