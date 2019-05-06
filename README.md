@@ -1,5 +1,9 @@
 # systemd-demo
 a systemd demo project , write by golang ,a web servoice return current time string.
+
+[![Build Status](https://travis-ci.org/hellojukay/systemd-demo.svg?branch=master)](https://travis-ci.org/hellojukay/systemd-demo)
+
+
 ## how to install it
 it will build main.go , and create now.service in `/lib/systemd/system/now.service`
 ```shell
