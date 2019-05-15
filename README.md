@@ -10,7 +10,7 @@ it will build main.go , and create now.service in `/lib/systemd/system/now.servi
 sudo bash install.sh
 ```
 
-## How run it
+## How to run it
 after install now.service
 ```shell
 system start now.service
