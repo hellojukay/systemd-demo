@@ -4,13 +4,13 @@ a systemd demo project , write by golang ,a web servoice return current time str
 [![Build Status](https://travis-ci.org/hellojukay/systemd-demo.svg?branch=master)](https://travis-ci.org/hellojukay/systemd-demo)
 
 
-## how to install it
+## How to install it
 it will build main.go , and create now.service in `/lib/systemd/system/now.service`
 ```shell
 sudo bash install.sh
 ```
 
-## how run it
+## How run it
 after install now.service
 ```shell
 system start now.service
@@ -33,7 +33,7 @@ access by curl
 hellojukay@local systemd-demo (master) $ curl http://127.0.0.1:6000/now
 2019-05-06 18:39:25
 ```
-## auto start at boot
+## Auto start at boot
 it will auto start whill system started.
 ```shell
 system enable now
