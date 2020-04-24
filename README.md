@@ -28,6 +28,12 @@ hellojukay@local systemd-demo (master) $ systemctl status now
 
 Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
 ```
+run with special user
+```shell
+vagrant@ubuntu-bionic systemd-demo (master) $ ps aux | grep now
+vagrant   3604  0.0  0.1 1008360 5420 ?        Ssl  03:26   0:00 /usr/bin/now
+vagrant   3866  0.0  0.0  14856  1004 pts/0    R+   03:38   0:00 grep --color=auto now
+```
 access by curl 
 ```shell
 hellojukay@local systemd-demo (master) $ curl http://127.0.0.1:6000/now

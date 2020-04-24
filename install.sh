@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+useradd vagrant
 go build -o now main.go
 sudo cp now /usr/bin/
 sudo cp now.service /lib/systemd/system/now.service
