@@ -13,7 +13,7 @@ sudo bash install.sh
 ## How to run it
 after install now.service
 ```shell
-system start now.service
+systemctl start now.service
 ```
 ```shell
 hellojukay@local systemd-demo (master) $ systemctl status now
@@ -42,5 +42,5 @@ hellojukay@local systemd-demo (master) $ curl http://127.0.0.1:6000/now
 ## Auto start at boot
 it will auto start whill system started.
 ```shell
-system enable now
+systemctl enable now
 ```
